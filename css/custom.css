@@ -18,7 +18,7 @@
 				  -1px -1px 0 #000;
 }
 .footer {
-	border: 2px solid black;
-	height: 7.0%;
+	height: 10.0%;
+	display: inline-block;
 
 }

@@ -7,179 +7,161 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Cusotm CSS -->
     <link rel="stylesheet" href="css/custom.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Arvo:wght@700&family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/acececa3f5.js" crossorigin="anonymous"></script>
 
-
-    <title>John Maxwell</title>
+    <title>Hello, world!</title>
   </head>
-
   <body>
-         <!--NAV Code Goes Here-->
-    <header>
-       <nav class="navbar  fixed-top mx-auto navbar-expand-md text-white bg-dark">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-            <a class="navbar-brand text-white" href="#">John L. Maxwell</a>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
-              <li class="nav-item">
-              <a class="nav-link text-white" href="C:\Users\jlmax\OneDrive\Desktop\Profile Webpage\index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="C:\Users\jlmax\OneDrive\Desktop\Profile Webpage\personal.html">Personal Life</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link text-white" href="C:\Users\jlmax\OneDrive\Desktop\Profile Webpage\portfolio.html">Professional Portfolio</a>
-      </div>
+    <!-- NAVBAR CODE -->
+    <div class="container-fluid px-0">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark px-4">
+  <div class="container-fluid d-flex flex-row-reverse">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-3 mb-lg-0 h4">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Portfolio</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-light" type="submit">Search</button>
+      </form>
+    </div>
   </div>
 </nav>
-
-</header>
-<main>
-  <!--Header/Images Code Here-->
-  <section class= " bg-light text-white py-5 text-center container-fluid vh-100"  style=" background-position: center center; background-size: cover ; background-repeat:no-repeat center fixed ; background-image: url('images/background.png');">
-    <div class="row h-100 justify-content-center align-items-center">
-      <h1 class="openline display-2"> Blah Blah Blah</h1>
-    </div>
-
-  
-  </section>  
-</main>
-<div class=" mb-4 container-fluid "> 
-  <h2 class= "my-5 py-3 text-center "> Skills, Experience, and Interests</h2>
 </div>
 
+<!-- Container near top of page -->
+<div class="container-fluid topofpageimages">
+  <div class="profilecontainer row justify-content-center">
+      <div class="col-md-5 col-sm-12">
+    <img src='images/profile-option2.jpg' alt="Girl in a jacket"  class="profilepic">
+  </div>
+    <div class="col-md-7 col-sm-12 topofpagetext">
+      <h1 class="topofpagetext tpt4">John Maxwell</h1>
+      <h3 class="topofpagetext1">Lets Build Together.</h3> 
+    </div>
 
-<!--Body Cards Content Here-->
-<div class="mt-4 card-group mx-auto justify-content-center bg-dark">
-  <div class="card border border-secondary rounded m-4 p-4" style="  width: 18rem;">
-     <h5 class="card-title text-center">Yes</h5>
-    <img  src="images/profile.png" class="card-img-top" alt="...">
-    <div class="card-body mr-2">
-     
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+</div>
+</div>
+
+<!--About Section -->
+<div class="aboutwrapper">
+<div class="container">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+  <div class="row">
+    <div class="col-md-4 col-sm-12 text-xs-center abouttext">
+         <h1>About</h1>
     </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-    </ul>
-    <div class="card-body text-center mx-2">
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
+    <div class="col-md-8 col-sm-12 aboutinfo">    
+      <h2>Background</h2>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <h2>Services</h2>
+    <div class="service row">
+      <div class='webdev col'>
+<i class="fas fa-laptop-code display-5 mb-1"></i>
+        <p class="servicetext">Custom Web Designs</p>
+      </div>
+            <div class='webdev col '>
+<i class="fas fa-palette display-5 mb-1"></i>
+        <p class="servicetext">UI/UX Design</p>
+      </div>
+            <div class='webdev col '>
+<i class="fas fa-tools display-5 mb-1 webdevicon"></i>
+        <p class="servicetext">Semi-Professional Motorcycle Builds</p>
+      </div>
     </div>
+
+    <button type="button" class="btn btn-primary mb-2">Contact Me</button>
   </div>
-  <div class="card  border border-secondary rounded m-4 p-4" style=" width: 18rem;">
-     <h5 class="card-title text-center">Card title</h5>
-    <img src="images/profile.png" class="card-img-top" alt="...">
-    <div class="card-body ml-2">
-     
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+</div>
+
+</div>
+</div>
+<!-- Project Section Code Here -->
+<div class="projectswrapper">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-xs-12 text-xs-center abouttext">
+         <h1>Projects</h1>
     </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-    </ul>
-    <div class="card-body text-center">
-      <a href="#" class="card-link text-center">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div>
-  </div>
- <div class="card border border-secondary rounded m-4 p-4" style="  width: 18rem;">
-    <h5 class="card-title text-center">Card title</h5>
-    <img src="images/profile.png" class="card-img-top" alt="...">
+    <div class="col-md-8 col-xs-12 aboutinfo">    
+      <h2>Latest Work</h2>
+      <div class="latestworkcards">
+        <div class="card-group">
+  <div class="card">
+      <h5 class="card-title">Project #1</h5> 
+      <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-body">
-      
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-    </ul>
-    <div class="card-body tet-center">
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
+    <div class="card-footer row">
+      <i class="fab fa-github-square d-inline col-2"></i>
+      <i class="fas fa-external-link-alt d-inline col-2"></i>
+
     </div>
+  </div>
+    <div class="card">
+      <h5 class="card-title">Project #2</h5> 
+      <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer row">
+      <i class="fab fa-github-square d-inline col-2"></i>
+      <i class="fas fa-external-link-alt d-inline col-2"></i>
+
+    </div>
+  </div>
+   <div class="card">
+      <h5 class="card-title">Project #3</h5> 
+      <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer row">
+      <i class="fab fa-github-square d-inline col-2"></i>
+      <i class="fas fa-external-link-alt d-inline col-2"></i>
+
+    </div>
+  </div>
+      </div>
+
+    <h2 class="techdiv">Tech Utilized</h2>
+    <div class="techicons techdiv ">
+      <i class="fab fa-html5 mx-3"></i>
+      <i class="fab fa-css3-alt mx-3"></i>
+      <i class="fab fa-bootstrap mx-3"></i>
+      <i class="fab fa-js-square mx-3"></i>
+    </div>
+    <button type="button" class="btn btn-primary mb-2">See All Projects</button>
   </div>
 </div>
 
-<!-- Footer -->
-<footer class="bg-dark text-center mx-auto footer text-white-50 fixed-bottom">
-  <!-- Grid container -->
-  <div class="container-fluid py-2 my-2">
-    <!--Grid row-->
-    <div class=" justify-content-center row">
-      <!--Grid column-->
+</div>
 
-      <!--Grid column-->
 
-      <!--Grid column-->
-      <div class=" col-md-6 list-inline mb-4 mb-md-0">
-        <h5 class=" text-white list-inline">Online Profiles</h5>
 
-        <ul class="list-inline pt-2 mb-0">
-          <li class="list-inline-item">
-            <i class=" fab fa-facebook-f"></i>
-          </li>
-          <li class="list-inline-item">
-          <i class=" fab fa-instagram"></i>
-          </li>
-              <li class="list-inline-item">
-                <i class="fab fa-github"></i>
-          </li>
-                        <li class="list-inline-item">
-                <i class="fab fa-linkedin"></i>
-          </li>
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-md-6">
-        <h5 class=" text-white mb-0">Contact Info</h5>
-
-        <ul class="list-unstyled pt-3">
-          <li>
-            <a href="#!" class="text-whit text-muted">john.l.maxwell10@gmail.com</a>
-          </li>
-
-        </ul>
-      </div>
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-    © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-<!-- Footer -->
-
-    <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <!-- ICONS CODE -->
-    <script src="https://kit.fontawesome.com/acececa3f5.js" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
+
   </body>
 </html>

@@ -17,8 +17,7 @@ body {
 	background-repeat:no-repeat center fixed ;
 	background-image: url('../images/backgroundoption4.jfif');
 	justify-content: center;
-
-		box-shadow: 0px 10px 18px #888888;
+	box-shadow: 0px 10px 18px #888888;
 
 
 }
@@ -98,9 +97,13 @@ background: radial-gradient(circle, rgba(213,213,213,1) 0%, rgba(232,232,232,0.9
 	padding-top:60px;
 	justify-content: center;
 }
+.servicetext1 {
+	margin-bottom: 20px;
+}
 h2 {
 	font-weight: bold;
 	text-decoration: underline;
+	margin-left: 1rem;
 }
 .projectinfo {
 	border: 2px black solid;
@@ -144,6 +147,42 @@ padding-bottom: 15px;
 		background:rgba(223, 228, 231, 255);
 
 }
+
+h1, h2, .nav-link, .btn{
+	font-family: 'Arvo', serif;
+}
+.footercon {
+	margin-top:40px;
+	color: white;
+}
+.footertext, .linkdiv {
+	text-align: center;
+}
+.footertext {
+	text-decoration: underline;
+}
+.contacticon {
+	height: 100px;
+	width: 100px;
+}
+.phoneicon, .addresslink {
+	margin-left: 15px;
+}
+.phone, .address{
+
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+.contactinfo{
+	margin-left: 300px;
+
+}
+.aboutpara {
+	margin-left: 1.4rem;
+}
 @media screen and (max-width: 600px) {
   .topofpagetext {
     font-size: 35px;
@@ -164,12 +203,30 @@ padding-bottom: 15px;
   .techdiv {
   	text-align: center;
   	justify-content: center;
+  	margin-top: 10px;
 
   }
   .abouttext {
   	margin-top: 0;
+  	padding-top:25px;
   }
-}
-h1, h2, .nav-link, .btn{
-	font-family: 'Arvo', serif;
+  .footertext {
+  	margin-top: 20px;
+  }
+  .topofpageimages, .profilecotainer{
+  	padding-bottom: 0;
+  	height: 420px;
+  }
+  .btn {
+  	margin: auto;
+  	align-items: center;
+  	justify-content: center;
+  }
+  .contactinfo{
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	margin: 0px 0px 0px 0px;
+  }
+
 }

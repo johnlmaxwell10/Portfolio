@@ -1,13 +1,39 @@
 
-	
-*{
+/*HTML Elements Styling*/
+h1, h2, .nav-link, .btn{
+	font-family: 'Arvo', serif;
+}
+/*Global Rules*/*{
  font-family: 'Lato', sans-serif;
+}
+
+/*Nav Bar Styles*/
+.nav-link {
+	margin: 0px 35px 0px 35px;
+}
+.nav-link:hover {
+	background-color:  #007CC7;
+	color: black;
+}
+#navbar{
+	background: #12232E;
+	color: ##f2f9ff;
+
 
 }
+
+
 body {
 	height: 100%;
+	background: #12232E
 
 }
+h2 {
+	font-weight: bold;
+	text-decoration: underline;
+	margin-left: 1rem;
+}
+/*Page Header Styling*/
 .topofpageimages {
 	width:100%;
 	height: 500px;
@@ -15,12 +41,13 @@ body {
 	background-position: center center;
 	background-size: cover ;
 	background-repeat:no-repeat center fixed ;
-	background-image: url('../images/backgroundoption4.jfif');
+	background-image: url('../images/backgroundoption5.jpg');
 	justify-content: center;
 	box-shadow: 0px 10px 18px #888888;
 
 
 }
+
 .profilepic {
 	display: block;
 	margin:auto;
@@ -36,31 +63,6 @@ body {
 	padding-bottom: 50px;
 
 }
-.topofpagetext {
-	display: block;
-	text-align: center;
-	justify-content: center;
-	padding-top: 70px;
-
-	font-size: 5rem;
-font-family: 'Arvo', serif;
-
-}
-
-.tpt4 {
-		text-decoration: underline;
-	text-shadow: black 0px 0px 10px;
-		color: white;
-}
-
-}
-.topofpagetext1 {
-	text-align: center;
-	justify-content: center;
-	font-family: 'Arvo', serif;
-	font-weight: bold;
-	color: black;
-}
 .parentcontainer {
 	padding-top: 30px;
 	display: flex;
@@ -68,27 +70,47 @@ font-family: 'Arvo', serif;
 	width: 80%;
 
 }
-.flexitem {
-	width: 30%;
+.topofpagetext {
+	display: block;
+	text-align: center;
+	justify-content: center;
+	padding-top: 70px;
+	font-size: 5rem;
+	font-family: 'Arvo', serif;
+
 }
+.tpt4 {
+		text-decoration: underline;
+	text-shadow: black 0px 0px 10px;
+		color: white;
+}
+
+
+.topofpagetext1 {
+	text-align: center;
+	justify-content: center;
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	color: black;
+}
+/*About Section Styles*/
 .aboutwrapper {
 	display: flex;
 	justify-content: center;
-	background:rgba(223, 228, 231, 255);
-	padding-bottom: 30px;
-
-}
-.projectswrapper {
-	border-top: 2px darkgray solid;
+	background: #12232E;
+padding-bottom: 40px;
 
 }
 .aboutinfo {
-	border: 2px darkgray solid;
+
+	border-bottom: 2px black solid;
+	border-left:2px black solid;
 	margin-top:30px;
 	padding-top:20px;
-	box-shadow: -5px 10px 18px #888888;
-background: rgb(213,213,213);
-background: radial-gradient(circle, rgba(213,213,213,1) 0%, rgba(232,232,232,0.9023984593837535) 100%);
+	box-shadow: -5px 5px 10px #0050d1;
+background: #007CC7;
+color: #f2f9ff;
+border-radius: 8px;
 }
 .abouttext {
 	display: flex;
@@ -96,30 +118,21 @@ background: radial-gradient(circle, rgba(213,213,213,1) 0%, rgba(232,232,232,0.9
 	margin-top:50px;
 	padding-top:60px;
 	justify-content: center;
+	color:#f2f9ff;
+	font-size: 4rem;
 }
 .servicetext1 {
 	margin-bottom: 20px;
 }
-h2 {
-	font-weight: bold;
-	text-decoration: underline;
-	margin-left: 1rem;
-}
-.projectinfo {
-	border: 2px black solid;
-	margin-top:30px;
-	padding-top:20px;
-}
-.projecttext {
-	text-align: center;
-	margin-top:30px;
-	}
-
-
 .services {
 	margin: auto;
 
 }
+#button{
+	background: #12232e;
+	color: #f2f9ff;
+}
+
 .webdev {
 	display: block;
 	align-items: center;
@@ -130,36 +143,91 @@ h2 {
 .servicetext {
 	font-size: 1.5rem;
 }
-.card{
+.aboutpara {
+	margin-left: 1.4rem;
+}
+/*Project Section Styling*/
+.projectswrapper {
+
+background: #12232E;
+padding-bottom: 40px;
+}
+#projectinfo {
+	background: #007CC7;
+}
+
+.projectinfo {
+	border: 2px black solid;
+	margin-top:30px;
+	padding-top:20px;
+}
+.projecttext {
+	text-align: center;
+	margin-top:30px;
+	color: #f2f9ff;
+	}
+
+
+
+.flexitem {
+	width: 30%;
+}
+
+
+.card {
 	padding: 5px 10px;
 	margin: 30px 30px;
 		box-shadow: -5px 10px 18px #888888;
+		background: #12232E;
+				  transition: transform .2s;
+	border-radius: 10px;
 }
 .card-group {
 
-padding-bottom: 15px;
+padding-bottom: 30px;
+}
+.card-footer {
+	border-top: 1px solid #e9ecf7;
+	
+
+}
+.card-title {
+	border-bottom: 1px solid #e9ecf7;
+}
+.card-image-top {
+	height: 
+	width:;
 }
 .techicons {
 	font-size: 3rem;
-
-}
-.card {
-		background:rgba(223, 228, 231, 255);
+	color: #f2f9ff;
 
 }
 
-h1, h2, .nav-link, .btn{
-	font-family: 'Arvo', serif;
+.card:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+
+
+
+/*Footer Styles*/
 .footercon {
-	margin-top:40px;
-	color: white;
+	padding-top:40px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: none;
+	background: #203647;
+	color: #f2f9ff;
+
 }
-.footertext, .linkdiv {
+.footertext, .linkdiv, .contactdiv {
 	text-align: center;
+
 }
 .footertext {
 	text-decoration: underline;
+	font-family: 'Arvo', serif;
 }
 .contacticon {
 	height: 100px;
@@ -176,18 +244,40 @@ h1, h2, .nav-link, .btn{
 	margin-top: 10px;
 	margin-left: 8px;
 }
-.contactinfo{
-	margin-left: 300px;
 
+
+
+/*Media Query for 601-991*/
+@media only screen and (max-width: 991px) and (min-width: 601px)  {
+	.profilepic {
+		margin:auto;
+	}
+	.topofpagetext {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 20px;
+	 background: #12232E;
+	}
+	.aboutwrapper {
+		margin-top: 100px;
+		padding-bottom: 0px;
+	}
+
+	.aboutwrapper {
+		padding-bottom: 20px;
+	}
+	.topofpagetext1 {
+		color: #f2f9ff;
+	}
 }
-.aboutpara {
-	margin-left: 1.4rem;
-}
+
+/*Media Query for SM Screen Down*/
 @media screen and (max-width: 600px) {
   .topofpagetext {
     font-size: 35px;
-        padding-top:20px;
-        margin-top:;
+        padding-top:15px;
+        margin-bottom: 10px;
+
   }
     .topofpagetext1 {
     font-size: 20px;
@@ -205,6 +295,9 @@ h1, h2, .nav-link, .btn{
   	justify-content: center;
   	margin-top: 10px;
 
+  }
+  .aboutwrapper {
+  	padding-bottom: 0px;
   }
   .abouttext {
   	margin-top: 0;

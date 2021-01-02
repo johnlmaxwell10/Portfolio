@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!--Cusotm CSS -->
@@ -17,8 +16,8 @@
   </head>
   <body>
     <!-- NAVBAR CODE -->
-    <div class="container-fluid px-0">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark px-4">
+    <div class="container-fluid px-0" id="navbar">
+    <nav class="navbar navbar-expand-md navbar-dark ">
   <div class="container-fluid d-flex flex-row-reverse">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -44,12 +43,12 @@
 <!-- Container near top of page -->
 <div class="container-fluid topofpageimages">
   <div class="profilecontainer row justify-content-center">
-      <div class="col-md-5 col-sm-12">
+      <div class="col-lg-5 col-md-12">
     <img src='images/profile-option2.jpg' alt="Girl in a jacket"  class="profilepic">
   </div>
-    <div class="col-md-7 col-sm-12 topofpagetext">
+    <div class="col-lg-7 col-md-12 topofpagetext">
       <h1 class="topofpagetext tpt4">John Maxwell</h1>
-      <h3 class="topofpagetext1">Lets Build Together</h3> 
+      <h3 class="topofpagetext1">Front-End Web Developer</h3> 
     </div>
 
 </div>
@@ -82,7 +81,7 @@
       </div>
     </div>
     <div class="btn">
-    <button type="button" class="btn btn-primary mb-2">Contact Me</button>
+    <button type="button" id="button" class="btn btn-primary mb-2">Contact Me</button>
   </div>
   </div>
 </div>
@@ -96,16 +95,16 @@
     <div class="col-md-4 col-xs-12 text-xs-center abouttext">
          <h1 class="abouttext">Projects</h1>
     </div>
-    <div class="col-md-8 col-xs-12 aboutinfo">    
+    <div class="col-md-8 col-xs-12 aboutinfo"id="projectinfo">    
       <h2>Latest Work</h2>
       <div class="latestworkcards">
         <div class="card-group">
   <div class="card">
       <h5 class="card-title">Project #1</h5> 
-      <img class="card-img-top" src="..." alt="Card image cap">
+      <img class="card-img-top" src="images/random1.png" alt="Random Photo">
     <div class="card-body">
 
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">My Personal Portfolio Website, built on the Bootstrap Framework and customized using responsive CSS. </p>
     </div>
     <div class="card-footer row">
       <i class="fab fa-github-square d-inline col-2"></i>
@@ -115,10 +114,10 @@
   </div>
     <div class="card">
       <h5 class="card-title">Project #2</h5> 
-      <img class="card-img-top" src="..." alt="Card image cap">
+      <img class="card-img-top" src="images/random3.png" alt="Random Photo">
     <div class="card-body">
 
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Project Elevator Pitch</p>
     </div>
     <div class="card-footer row">
       <i class="fab fa-github-square d-inline col-2"></i>
@@ -128,10 +127,10 @@
   </div>
    <div class="card">
       <h5 class="card-title">Project #3</h5> 
-      <img class="card-img-top" src="..." alt="Card image cap">
+      <img class="card-img-top" src="images/random1.png" alt="Random Photo">
     <div class="card-body">
 
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Project Elevator Pitch</p>
     </div>
     <div class="card-footer row">
       <i class="fab fa-github-square d-inline col-2"></i>
@@ -150,7 +149,7 @@
 
     </div>
     <div class="btn">
-    <button type="button" class="btn btn-primary mb-2">See All Projects</button>
+    <button type="button" id="button" class="btn btn-primary mb-2">See All Projects</button>
   </div>
   </div>
 </div>
@@ -159,7 +158,7 @@
 </div>
 
 <!-- Footer Code -->
-<div class="footercon row bg-dark py-3">
+<div class="footercon container-fluid row ">
   <div class="contactdiv col-md-6 col-xs-12">
     <h3 class="footertext">Contact</h3>
     <div class="contactinfo text-muted">   
@@ -174,7 +173,7 @@
 
     </div>
   </div>
-  <div class="linkdiv col-sm-6 col-xs-12">
+  <div class="linkdiv col-md-6 col-xs-12">
     <h3 class="footertext">Online Links</h3>
     <div class="socialinks text-muted mt-4">
       <i class="fab fa-github-square d-inline mx-4"></i>

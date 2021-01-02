@@ -55,7 +55,7 @@ h2 {
 	height: 353px;
 	margin-right: 50px;
 	border-radius: 50%;
-	border: solid 3px white;
+	border: solid 2px black;
 }
 .profilecontainer {
 	
@@ -244,7 +244,16 @@ padding-bottom: 30px;
 	margin-top: 10px;
 	margin-left: 8px;
 }
+/*Media Queury to Remove Text in Sm-MD Screens*/
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+	.card-text {
+		display: none;
+	}
+	.abouttext {
+		padding-top: 0;
 
+	}
+}
 
 /*Media Query for 1027px and uo*/
 @media only screen and (min-width: 1026px){

@@ -131,6 +131,7 @@ border-radius: 8px;
 #button{
 	background: #12232e;
 	color: #f2f9ff;
+	margin:0px 20px 0px 20px;
 }
 
 .webdev {
@@ -255,8 +256,8 @@ padding-bottom: 30px;
 	}
 }
 
-/*Media Query for 1027px and uo*/
-@media only screen and (min-width: 1026px){
+/*Media Query for 1513px and uo*/
+@media only screen and (min-width: 1512px){
 	.topofpagetext1 {
 		color: black;
 	}
@@ -282,6 +283,9 @@ padding-bottom: 30px;
 	}
 	.topofpagetext1 {
 		color: #f2f9ff;
+	}
+	.profilepic {
+		margin-bottom: 20px;
 	}
 }
 

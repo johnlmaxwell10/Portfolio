@@ -121,6 +121,7 @@ border-radius: 8px;
 	color:#f2f9ff;
 	font-size: 4rem;
 }
+
 .servicetext1 {
 	margin-bottom: 20px;
 }
@@ -213,7 +214,7 @@ padding-bottom: 30px;
 
 
 /*Footer Styles*/
-.footercon {
+.footercon, .copyright {
 	padding-top:40px;
 	margin-right: 0px;
 	margin-left: 0px;
@@ -264,6 +265,9 @@ padding-bottom: 30px;
 }
 /*Media Query for 601-991*/
 @media only screen and (max-width: 991px) and (min-width: 601px)  {
+	.abouttext1 {
+	margin-right: 50px;
+}
 	.profilepic {
 		margin:auto;
 	}
